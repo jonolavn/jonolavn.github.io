@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px;
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .links {
-            list-style: none;
-            padding: 0;
-            max-width: 300px;
-            width: 100%;
-        }
-        .links li {
-            margin: 10px 0;
-        }
-        .links a {
-            display: block;
-            padding: 12px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            text-align: center;
-            transition: background-color 0.2s ease;
-        }
-        .links a:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruth & Jon Olavs Ønskelister</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .profile {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+    h1 {
+      margin: 15px 0 5px;
+      font-size: 24px;
+    }
+    p {
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+    }
+    .links {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .link-btn {
+      background: white;
+      color: #333;
+      padding: 14px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .link-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    }
+  </style>
 </head>
 <body>
-    <h1>Ønskelister for Ruth & Jon Olav</h1>
-    <ul class="links">
-        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-        <li><a href="https://google.com/" target="_blank">Google</a></li>
-        <li><a href="https://openai.com/" target="_blank">OpenAI</a></li>
-        <li><a href="https://wikipedia.org/" target="_blank">Wikipedia</a></li>
-    </ul>
+  <div class="profile">
+    <img src="https://via.placeholder.com/120" alt="My Avatar" class="avatar">
+    <h1>Ruth og Jon Olav</h1>
+    <p>HetlandNessa.no</p>
+  </div>
+
+  <div class="links">
+    <a href="https://www.kitchn.no/bryllup/vis-liste/227907/" target="_blank" class="link-btn">Kitchn (fullstendig liste kommer senere)</a>
+    <a href="https://www.illumsbolighus.no" target="_blank" class="link-btn">Illums Bolighus (TBA)</a>
+    <a href="https://www.cg.no/" target="_blank" class="link-btn">Christiania Glassmagasin (TBA)<</a>
+    <a href="https://www.hoie.no/" target="_blank" class="link-btn">Høie</a>
+  </div>
 </body>
 </html>
