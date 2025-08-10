@@ -1,2 +1,2 @@
-# hetlandnessa.github.io
+# jonolavn.github.io
 Info til bryllup
