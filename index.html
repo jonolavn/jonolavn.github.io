@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ruth & Jon Olavs Ønskelister</title>
+  <title>My Links</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -54,25 +56,32 @@
       text-decoration: none;
       box-shadow: 0 3px 6px rgba(0,0,0,0.1);
       transition: transform 0.15s ease, box-shadow 0.15s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
     .link-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 5px 12px rgba(0,0,0,0.15);
     }
+    .link-btn i {
+      font-size: 18px;
+    }
   </style>
 </head>
 <body>
   <div class="profile">
-    <img src="https://via.placeholder.com/120" alt="My Avatar" class="avatar">
-    <h1>Ruth og Jon Olav</h1>
-    <p>HetlandNessa.no</p>
+    <img src="images/avatar.jpg" alt="My Avatar" class="avatar">
+    <h1>Your Name</h1>
+    <p>Short bio or tagline</p>
   </div>
 
   <div class="links">
-    <a href="https://www.kitchn.no/bryllup/vis-liste/227907/" target="_blank" class="link-btn">Kitchn (fullstendig liste kommer senere)</a>
-    <a href="https://www.illumsbolighus.no" target="_blank" class="link-btn">Illums Bolighus (TBA)</a>
-    <a href="https://www.cg.no/" target="_blank" class="link-btn">Christiania Glassmagasin (TBA)<</a>
-    <a href="https://www.hoie.no/" target="_blank" class="link-btn">Høie</a>
+    <a href="https://github.com/" target="_blank" class="link-btn"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://instagram.com/" target="_blank" class="link-btn"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://youtube.com/" target="_blank" class="link-btn"><i class="fab fa-youtube"></i> YouTube</a>
+    <a href="https://linkedin.com/" target="_blank" class="link-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
   </div>
 </body>
 </html>
