@@ -1,0 +1,15 @@
+:root { --bg:#0f1724; --card:#0b1220; --accent:#1f7aea; color: #e6eef8; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+body { background: linear-gradient(180deg,#071428 0%, #0b1220 100%); margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; }
+.container { width:100%; max-width:880px; padding:28px; }
+h1 { margin:0 0 12px 0; font-size:28px; }
+.note { background: rgba(255,255,255,0.03); padding:12px; border-radius:8px; margin-bottom:18px; }
+#songs { display:grid; gap:10px; margin-top:12px; }
+.card { background: rgba(255,255,255,0.02); padding:12px; border-radius:8px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.info { flex:1; }
+.title { font-weight:600; margin-bottom:6px; }
+.subtitle { font-size:13px; opacity:0.85; }
+.controls { display:flex; gap:8px; align-items:center; }
+button { background:var(--accent); color:white; border:0; padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:600; }
+button:disabled { opacity:0.5; cursor:not-allowed; }
+input#token { width:100%; padding:8px; margin-top:6px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit; }
+footer { margin-top:16px; color:rgba(255,255,255,0.45); font-size:12px; }
