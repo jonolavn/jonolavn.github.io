@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spotify Timestamp Jukebox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Spotify Timestamp Jukebox</h1>
+
+    <div class="note">
+      <p>
+        This demo uses the Spotify Web Playback SDK + Web API. You must paste a valid <strong>OAuth access token</strong> (with playback scopes) below.
+        The person who plays must have Spotify Premium. See README for setup.
+      </p>
+      <label>
+        Paste Spotify access token:
+        <input id="token" placeholder="Paste token here (Bearer token without 'Bearer ')" />
+      </label>
+    </div>
+
+    <section id="songs"></section>
+
+    <footer>
+      <small>Generated player — play will transfer playback to this browser if allowed by Spotify.</small>
+    </footer>
+  </main>
+
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
